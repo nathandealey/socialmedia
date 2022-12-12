@@ -11,7 +11,7 @@ class PostForm(forms.ModelForm):
 class ProfileForm(forms.ModelForm):
     class Meta:
         model = Profile
-        fields = ['first_name','last_name','email','dob','bio']
+        fields = ['first_name','last_name','email','dob','bio'] #labels for display
         labels = {'first_name':'First Name',
                     'last_name':'Last Name',
                     'email':'Email',

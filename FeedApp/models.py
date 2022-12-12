@@ -4,7 +4,7 @@ from django.contrib.auth.models import User
 
 # Create your models here.
 
-class Profile(models.Model):
+class Profile(models.Model): #user profile
     first_name = models.CharField(max_length=200,blank=True)
     last_name = models.CharField(max_length=200,blank=True)
     email = models.EmailField(max_length=300,blank=True)
